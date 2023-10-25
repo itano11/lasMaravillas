@@ -21,3 +21,10 @@ body {
     height: 400px;
     border-radius: 5%;
 }
+
+@media (max-width: 767px) {
+    .imagen-maravilla {
+        max-width: 100%; /* Ajusta el tamaño máximo de la imagen para dispositivos móviles */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+}
